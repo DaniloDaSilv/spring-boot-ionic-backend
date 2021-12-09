@@ -29,7 +29,7 @@ public class CursomcApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 
 	Categoria cat1 = new Categoria(null,"Informatica");
-	Categoria cat2 = new Categoria(null,"Escritorio	");
+	Categoria cat2 = new Categoria(null,"Escritorio");
 	
 	Produto p1 = new Produto(null, "Computador", 2000.00);
 	Produto p2 = new Produto(null, "Impressora", 800.00);
