@@ -26,4 +26,7 @@ public class CategoriaResource {
 		
 	}
 	
+	public ResponseEntity<Void> insert (Categoria obj){
+		obj = service.insert(obj);
+	}
 }	
