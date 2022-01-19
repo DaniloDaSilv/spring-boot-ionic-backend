@@ -9,6 +9,6 @@ import com.danilods.cursomc.domain.Cliente;
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
-	@Transactional
+	@Transactional	
 	Cliente findByEmail(String email);
 }
